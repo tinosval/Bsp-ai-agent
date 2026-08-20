@@ -75,4 +75,4 @@ This AI agent reduces that to under 2 minutes while ensuring consistency and usi
     ## 🖼️ Screenshots
 
 ### Input Form
-![Input Form](Screenshots/form.png)
+![Input Form](Screenshots/Form.png)
