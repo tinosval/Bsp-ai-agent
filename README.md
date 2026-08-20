@@ -45,3 +45,29 @@ This AI agent reduces that to under 2 minutes while ensuring consistency and usi
 3. **Flags missing information** — If a diagnosis or condition isn't found internally, the agent flags it instead of guessing or pulling from outside sources.
 4. **Generates the plan** — The AI writes professional BSP paragraphs matching the tone and structure of existing plans.
 5. **Download as Word** — The completed Behaviour Support Plan is generated and downloaded instantly as a formatted .docx file, ready for review.
+
+## ⚙️ Setup & Installation
+
+1. **Clone the repository**
+
+    git clone https://github.com/tinosval/Bsp-ai-agent.git
+    cd bsp-ai-agent
+
+2. **Install dependencies**
+
+    pip install -r requirements.txt
+
+3. **Add your API key**
+
+    Create a .env file in the project root and add:
+    OPENAI_API_KEY=your_api_key_here
+
+4. **Build the knowledge base**
+
+    python build_kb.py
+
+5. **Run the app**
+
+    streamlit run app.py
+
+    The app will open at http://localhost:8501
