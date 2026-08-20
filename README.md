@@ -76,3 +76,6 @@ This AI agent reduces that to under 2 minutes while ensuring consistency and usi
 
 ### Input Form
 ![Input Form](Screenshots/Form.png)
+
+### Sample Generated BSP
+[View sample output (PDF)](Screenshots/sample-bsp-output.pdf)
