@@ -40,3 +40,8 @@ This AI agent reduces that to under 2 minutes while ensuring consistency and usi
 ---
 
 ## 📋 How It Works
+1. **Enter client details** — Staff fill in a simple web form with client name, diagnosis, and behaviours of concern.
+2. **AI searches internal documents** — The agent searches only the internal 60-page resource document using a RAG (Retrieval-Augmented Generation) system, never external sources.
+3. **Flags missing information** — If a diagnosis or condition isn't found internally, the agent flags it instead of guessing or pulling from outside sources.
+4. **Generates the plan** — The AI writes professional BSP paragraphs matching the tone and structure of existing plans.
+5. **Download as Word** — The completed Behaviour Support Plan is generated and downloaded instantly as a formatted .docx file, ready for review.
